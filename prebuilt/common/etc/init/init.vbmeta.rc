@@ -1,0 +1,4 @@
+# vbmeta
+on property:settings.secure.dynamic_vbmeta_digest=*
+    setprop ro.boot.vbmeta.digest ${settings.secure.dynamic_vbmeta_digest}
+

@@ -58,7 +58,8 @@ endif
 
 # Awaken-specific init rc file
 PRODUCT_COPY_FILES += \
-    vendor/awaken/prebuilt/common/etc/init/init.awaken-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.awaken-system_ext.rc
+    vendor/awaken/prebuilt/common/etc/init/init.awaken-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.awaken-system_ext.rc \
+    vendor/awaken/prebuilt/common/etc/init/init.vbmeta.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vbmeta.rc
 
 # Disable blur on app-launch
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
